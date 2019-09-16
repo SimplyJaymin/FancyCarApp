@@ -6,7 +6,7 @@ import com.jaymin.fancycarsapp.persistence.Car
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import com.jaymin.fancycarsapp.model.Car as CarModel
+import com.jaymin.fancycarsapp.carscollection.model.Car as CarModel
 
 class CarsCollectionPresenter(private val interactor: ICarsCollectionInteractor,
                               private val dispatcher: ICoRoutinesDispatcher) :

@@ -1,4 +1,4 @@
-package com.jaymin.fancycarsapp.model
+package com.jaymin.fancycarsapp.carscollection.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

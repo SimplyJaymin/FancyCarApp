@@ -61,7 +61,7 @@ class CarsCollectionPresenterTest {
         assertEquals(convertedCarModel.image, dummyImage)
         assertEquals(
             convertedCarModel.availability,
-            com.jaymin.fancycarsapp.model.Car.Availability.IN_DEALERSHIP
+            com.jaymin.fancycarsapp.carscollection.model.Car.Availability.IN_DEALERSHIP
         )
     }
 
@@ -88,7 +88,7 @@ class CarsCollectionPresenterTest {
         assertEquals(convertedCarModel.image, dummyImage)
         assertEquals(
             convertedCarModel.availability,
-            com.jaymin.fancycarsapp.model.Car.Availability.OUT_OF_STOCK
+            com.jaymin.fancycarsapp.carscollection.model.Car.Availability.OUT_OF_STOCK
         )
     }
 
@@ -115,7 +115,7 @@ class CarsCollectionPresenterTest {
         assertEquals(convertedCarModel.image, dummyImage)
         assertEquals(
             convertedCarModel.availability,
-            com.jaymin.fancycarsapp.model.Car.Availability.UNAVAILABLE
+            com.jaymin.fancycarsapp.carscollection.model.Car.Availability.UNAVAILABLE
         )
     }
 

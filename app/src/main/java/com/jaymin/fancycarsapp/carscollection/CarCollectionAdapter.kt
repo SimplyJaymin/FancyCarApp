@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.jaymin.fancycarsapp.R
-import com.jaymin.fancycarsapp.model.Car
-import com.jaymin.fancycarsapp.model.Car.Availability.*
+import com.jaymin.fancycarsapp.carscollection.model.Car
+import com.jaymin.fancycarsapp.carscollection.model.Car.Availability.*
 import kotlinx.android.synthetic.main.individual_car_item.view.*
 
 class CarCollectionAdapter(

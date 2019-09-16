@@ -9,7 +9,7 @@ import com.jaymin.fancycarsapp.R
 import com.jaymin.fancycarsapp.base.BaseActivity
 import com.jaymin.fancycarsapp.base.CoRoutinesDispatcherImpl
 import com.jaymin.fancycarsapp.carscollection.CarsCollectionPresenter.SortType.*
-import com.jaymin.fancycarsapp.model.Car
+import com.jaymin.fancycarsapp.carscollection.model.Car
 import kotlinx.android.synthetic.main.activity_main.*
 
 class CarsCollectionActivity : BaseActivity(), ICarsCollectionView {

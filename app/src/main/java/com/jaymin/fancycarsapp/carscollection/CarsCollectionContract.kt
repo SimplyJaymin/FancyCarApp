@@ -1,7 +1,7 @@
 package com.jaymin.fancycarsapp.carscollection
 
 import com.jaymin.fancycarsapp.base.BaseView
-import com.jaymin.fancycarsapp.model.Car
+import com.jaymin.fancycarsapp.carscollection.model.Car
 
 interface ICarsCollectionView : BaseView {
     fun showLoading()
