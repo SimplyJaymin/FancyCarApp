@@ -5,6 +5,8 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import com.jaymin.fancycarsapp.R
 import com.jaymin.fancycarsapp.model.Car
 import com.jaymin.fancycarsapp.model.Car.Availability.*
@@ -61,10 +63,10 @@ class CarCollectionAdapter(
     }
 
     class CarViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val carName = view.carItemName
-        val carMake = view.carItemMake
-        val carModel = view.carItemModel
-        val carAvailability = view.carItemAvailability
-        val carAddToCart = view.carItemAddToCart
+        val carName: TextView = view.carItemName
+        val carMake: TextView = view.carItemMake
+        val carModel: TextView = view.carItemModel
+        val carAvailability: TextView = view.carItemAvailability
+        val carAddToCart: ImageView = view.carItemAddToCart
     }
 }
