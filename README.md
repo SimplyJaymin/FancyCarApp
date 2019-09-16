@@ -17,18 +17,17 @@ Programming language used - Kotlin
 
 **Assumptions** - 
 1) The requirements specified that there would be a separate service to get the availability status of a Car, but as we have to implement pagination alongwith sorting by availability, having a separate service to get the availability status of a Car would be in-efficient & would not yeild correct sorting results. Thus, at the moment, the availability status of the Car is being returned in the GetCars service.
+2) As no actual web service is being called, the data is being read from a database. As database calls are near instantaneous, in order to simulate a network call, a 2 second delay is introduced before each database read.
 
 **App Screens** -
-i) Splash Screen
+1) Splash Screen
 * This screen is shown to the user while the database is being loaded with mock data in the background.
 * Consists of a loading animation & text that indicates the current state of the background process.
 
-ii) Car Collections Screen
+2) Car Collections Screen
 * This screen shows all the cars as an infinite scrolling list.
 * Each car item shows - Name, Make, Model, Availability, Image & AddToCart button
-* Following sorting functionalities are available -
-  ..*Name - Sort the cars by their Name
-  ..*Availability - Sort the cars by their Availability
+* Following sorting functionalities are available - Name & Availability
 
 
 
