@@ -29,5 +29,6 @@ Programming language used - Kotlin
 * Each car item shows - Name, Make, Model, Availability, Image & AddToCart button
 * Following sorting functionalities are available - Name & Availability
 
-
-
+**System Design** -
+![System Design](https://github.com/SimplyJaymin/FancyCarApp/blob/master/FancyCarsAppDesign.png)
+***Note*** - The above system design only contains the Splash Screen design. The Cars Collection Screen design is similar to the Splash Screen design
