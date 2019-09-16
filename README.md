@@ -2,7 +2,7 @@
 
 This Android app allows the user to check out the latest cars in the inventory of Fancy Cars Inc.
 
-Programming language used - Kotlin
+**Programming language used** - Kotlin
 
 **Libraries used** - 
 * Mockito
