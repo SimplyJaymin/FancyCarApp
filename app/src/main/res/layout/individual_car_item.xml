@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:padding="80dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/carItemImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/carItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:text="Fancy Car"
+                app:layout_constraintStart_toEndOf="@id/carItemImage"
+                app:layout_constraintTop_toTopOf="@id/carItemImage" />
+
+            <TextView
+                android:id="@+id/carItemMake"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Fancy Car Make"
+                app:layout_constraintStart_toEndOf="@id/carItemImage"
+                app:layout_constraintTop_toBottomOf="@id/carItemName" />
+
+            <TextView
+                android:id="@+id/carItemModel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Fancy Car Model"
+                app:layout_constraintStart_toEndOf="@id/carItemImage"
+                app:layout_constraintTop_toBottomOf="@id/carItemMake" />
+
+            <TextView
+                android:id="@+id/carItemAvailability"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Fancy Car Availability"
+                app:layout_constraintStart_toEndOf="@id/carItemImage"
+                app:layout_constraintTop_toBottomOf="@id/carItemModel" />
+
+            <ImageView
+                android:id="@+id/carItemAddToCart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Buy"
+                android:src="@android:drawable/ic_input_add"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
