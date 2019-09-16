@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <dimen name="default_margin">8dp</dimen>
+  <dimen name="marginDefault">8dp</dimen>
+  <dimen name="marginDouble">16dp</dimen>
+  <dimen name="marginTriple">24dp</dimen>
+  <dimen name="marginQuadruple">32dp</dimen>
+
+  <dimen name="paddingDefault">8dp</dimen>
+  <dimen name="paddingLarge">56dp</dimen>
+
+  <dimen name="splash.loadingAnimationSize">200dp</dimen>
+
+  <dimen name="carsCollection.individualItemCarImageSize">100dp</dimen>
+  <dimen name="carsCollection.individualItemBuyButtonSize">40dp</dimen>
+
+  <dimen name="textSizeDefault">20sp</dimen>
+
+  <dimen name="elevationDefault">4dp</dimen>
+
+  <dimen name="cornerRadiusDefault">4dp</dimen>
+
 </resources>

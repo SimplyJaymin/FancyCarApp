@@ -3,11 +3,13 @@
     <string name="splash.message.loadingInProgress">Please wait while the database is being loaded…</string>
     <string name="splash.message.loadingComplete">Database has been loaded…</string>
     <string name="splash.message.persistFailure">Encountered an error in persisting data</string>
+    <string name="splash.accessibility.loadingAnimation">Loading Animation</string>
 
     <string name="carCollection.item.availabilityText">Availability : %s</string>
     <string name="carCollection.item.availabilityInDealershipText">In Dealership</string>
     <string name="carCollection.item.availabilityOutOfStockText">Out Of Stock</string>
     <string name="carCollection.item.availabilityUnavailableText">Unavailable</string>
+    <string name="carCollection.item.accessibility.buyButton">Add Car to Cart</string>
 
     <string name="sortingOption.none">None</string>
     <string name="sortingOption.name">Name</string>
